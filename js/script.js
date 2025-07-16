@@ -1,1 +1,1 @@
-console.log("MCWASN 2025 site loaded.");
+console.log("MCWASN 2025 multi-page site loaded.");
