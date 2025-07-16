@@ -1,17 +1,6 @@
-body {
-  scroll-behavior: smooth;
-  padding-top: 70px;
-}
-.main-content {
-  padding: 60px 0;
-}
-.navbar {
-  background-color: #005baa;
-}
-.navbar a.nav-link {
-  color: white;
-}
-footer {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-}
+body { scroll-behavior: smooth; padding-top: 70px; }
+.navbar { background: #005baa; }
+.nav-link { color: white !important; }
+.nav-link:hover { color: #ffdd00 !important; }
+.hero { background: #f0f8ff; padding: 150px 0; }
+footer { background: #f8f9fa; }
