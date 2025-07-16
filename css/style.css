@@ -1,6 +1,5 @@
 body { scroll-behavior: smooth; padding-top: 70px; }
-.navbar { background: #005baa; }
+.navbar { background-color: #005baa; }
 .nav-link { color: white !important; }
 .nav-link:hover { color: #ffdd00 !important; }
-.hero { background: #f0f8ff; padding: 150px 0; }
 footer { background: #f8f9fa; }
