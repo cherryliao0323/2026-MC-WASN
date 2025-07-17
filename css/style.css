@@ -96,3 +96,17 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+
+ul.collapse {
+  padding-left: 1rem;
+}
+
+ul.collapse li a.nav-link {
+  font-size: 0.95em;
+  padding-left: 1.5rem;
+  color: #ddd;
+}
+
+ul.collapse li a.nav-link:hover {
+  color: #ffc107;
+}
