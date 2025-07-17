@@ -10,23 +10,39 @@
 </head>
 <body>
 
-<nav class="navbar navbar-dark" style="background-color: #5c2e00; width: 220px; height: 100vh; position: fixed; flex-direction: column; padding-top: 1rem;">
+<nav class="navbar navbar-dark">
   <a class="navbar-brand px-3 mb-3" href="index.html">2025 MC & WASN</a>
   <ul class="navbar-nav w-100 px-2">
-    <li class="nav-item"><a class="nav-link active" href="index.html">首頁</a></li>
+    <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
     <li class="nav-item"><a class="nav-link" href="committee.html">大會組織</a></li>
     <li class="nav-item"><a class="nav-link" href="agenda.html">大會議程</a></li>
     <li class="nav-item"><a class="nav-link" href="speech.html">專題演講</a></li>
     <li class="nav-item"><a class="nav-link" href="discussion.html">跨域論壇</a></li>
-    <li class="nav-item"><a class="nav-link" href="mc-papers.html">MC 論文徵稿主題</a></li>
-    <li class="nav-item"><a class="nav-link" href="mc-submission.html">MC 論文投稿</a></li>
-    <li class="nav-item"><a class="nav-link" href="wasn-papers.html">WASN 論文徵稿主題</a></li>
-    <li class="nav-item"><a class="nav-link" href="wasn-submission.html">WASN 論文投稿</a></li>
+
+    <!-- MC 下拉 -->
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="#" data-toggle="collapse" data-target="#mcSubmenu">MC</a>
+      <ul class="collapse list-unstyled ps-3" id="mcSubmenu">
+        <li><a class="nav-link" href="mc-papers.html">MC 論文徵稿主題</a></li>
+        <li><a class="nav-link" href="mc-submission.html">MC 論文投稿</a></li>
+      </ul>
+    </li>
+
+    <!-- WASN 下拉 -->
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="#" data-toggle="collapse" data-target="#wasnSubmenu">WASN</a>
+      <ul class="collapse list-unstyled ps-3" id="wasnSubmenu">
+        <li><a class="nav-link" href="wasn-papers.html">WASN 論文徵稿主題</a></li>
+        <li><a class="nav-link" href="wasn-submission.html">WASN 論文投稿</a></li>
+      </ul>
+    </li>
+
     <li class="nav-item"><a class="nav-link" href="registration.html">大會註冊</a></li>
     <li class="nav-item"><a class="nav-link" href="transportation.html">交通資訊</a></li>
     <li class="nav-item"><a class="nav-link" href="sponsorship.html">贊助辦法</a></li>
   </ul>
 </nav>
+
 
 <main style="margin-left: 220px; padding: 40px;">
   <section class="header mb-5">
