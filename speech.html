@@ -2,66 +2,97 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>專題演講 - MC & WASN 2026</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>專題演講 - 2025 MC & WASN</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">MC & WASN 2026</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div id="navbarNav" class="collapse navbar-collapse">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
-        <li class="nav-item"><a class="nav-link" href="committee.html">委員會</a></li>
-        <li class="nav-item"><a class="nav-link" href="agenda.html">議程</a></li>
-        <li class="nav-item"><a class="nav-link active" href="speech.html">專題演講</a></li>
-        <li class="nav-item"><a class="nav-link" href="discussion.html">綜合討論</a></li>
-        <li class="nav-item"><a class="nav-link" href="mc-papers.html">MC 論文</a></li>
-        <li class="nav-item"><a class="nav-link" href="mc-submission.html">MC 投稿</a></li>
-        <li class="nav-item"><a class="nav-link" href="wasn-papers.html">WASN 論文</a></li>
-        <li class="nav-item"><a class="nav-link" href="wasn-submission.html">WASN 投稿</a></li>
-        <li class="nav-item"><a class="nav-link" href="registration.html">註冊</a></li>
-        <li class="nav-item"><a class="nav-link" href="transportation.html">交通</a></li>
-        <li class="nav-item"><a class="nav-link" href="sponsorship.html">贊助</a></li>
+  <div class="wrapper">
+    <nav class="sidebar">
+      <div class="sidebar-header">2025 MC & WASN</div>
+      <ul class="menu">
+        <li><a href="index.html">首頁</a></li>
+        <li>
+          <a href="#">大會組織</a>
+          <ul class="submenu">
+            <li><a href="organization.html">大會組織</a></li>
+            <li><a href="mc-committee.html">MC 委員會</a></li>
+            <li><a href="wasn-committee.html">WASN 委員會</a></li>
+          </ul>
+        </li>
+        <li><a href="agenda.html">大會議程</a></li>
+        <li><a href="speech.html" class="active">專題演講</a></li>
+        <li><a href="discussion.html">跨域論壇</a></li>
+        <li>
+          <a href="#">MC 論文徵稿主題</a>
+          <ul class="submenu">
+            <li><a href="mc-papers.html">MC 論文徵稿主題</a></li>
+            <li><a href="mc-submission.html">MC 論文投稿</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">WASN 論文徵稿主題</a>
+          <ul class="submenu">
+            <li><a href="wasn-papers.html">WASN 論文徵稿主題</a></li>
+            <li><a href="wasn-submission.html">WASN 論文投稿</a></li>
+          </ul>
+        </li>
+        <li><a href="registration.html">大會註冊</a></li>
+        <li><a href="transportation.html">交通資訊</a></li>
+        <li><a href="sponsorship.html">贊助辦法</a></li>
       </ul>
-    </div>
+    </nav>
+
+    <main class="content">
+      <section class="banner">
+        <img src="images/banner.jpg" alt="專題演講" class="banner-img">
+        <div class="banner-caption">
+          <h1>專題演講</h1>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="keynote">
+          <img src="images/speaker1.png" alt="蘇添財" style="float:left; width:320px; border-radius:30px; margin:10px 20px 20px 10px">
+          <h3>蘇添財 中華電信研究院 院長</h3>
+          <ul>
+            <li><strong>演講主題：</strong>AI 賦能 ICT：開啟邁向6G智慧應用新篇章</li>
+            <li><strong>學歷：</strong>成功大學電機工程碩士</li>
+            <li><strong>現職：</strong>中華電信研究院 院長</li>
+            <li><strong>重要經歷：</strong>
+              <ul>
+                <li>春水堂科技 董事長</li>
+                <li>個人家庭分公司 總經理</li>
+                <li>宏華國際 董事長</li>
+                <li>中華電信行動網公司副總（兼任家庭及電信學院院長）</li>
+                <li>中華電信智慧總規劃處 副總經理</li>
+                <li>中華電信電信研究院傳輸技術研究室</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="keynote">
+          <img src="images/speaker2.png" alt="Dr. Hwee-Pink TAN" style="float:left; width:320px; border-radius:30px; margin:10px 20px 20px 10px">
+          <h3>Dr. Hwee-Pink TAN, Head AiOT, 59stVentures</h3>
+          <p><strong>Talk title：</strong>AiOT Systems for Ageing-in-Place: Lessons Learnt and Future Opportunities</p>
+          <p>Hwee-Pink is an advisor for Singapore's Agency for Science, Technology and Research (A*STAR)'s Scientific Data Strategy Office as well as a consultant for Singapore's Health Promotion Board (HPB) in data change management. He has also been Affiliate Faculty with the Singapore Management University (SMU) Academy since 2019, where he helms the instruction of modules related to Internet of Things (IoT) Technology and Applications and Smart Healthcare. ...</p>
+        </div>
+
+        <div class="keynote">
+          <img src="images/speaker3.png" alt="楊柏林 教授" style="float:left; width:320px; border-radius:30px; margin:10px 20px 20px 10px">
+          <h3>楊柏林 國立臺灣大學電機工程學系 教授</h3>
+          <p>GICE and Chair of IoT Research Center at NTU. From 2019 to 2022, he served as the Interim Chair and Associate Chair of the Department of Electrical Engineering. ...</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>國立臺灣大資訊工程學系 MC/WASN 2025工作小組</p>
+        <p>聯絡人：廖芝勤　E-mail：mc.wasn.2025@gmail.com</p>
+        <p>&copy; MC/WASN 2025</p>
+      </footer>
+    </main>
   </div>
-</nav>
-
-<main class="container py-5" style="margin-top: 80px;">
-  <h1 class="mb-4">專題演講 Keynote Speeches</h1>
-
-  <div class="mb-5">
-    <h5>專題演講 I</h5>
-    <p><strong>講者：</strong>蘇添財 院長（中華電信研究院）</p>
-    <p><strong>主題：</strong>AI 賦能 ICT：開啟邁向 6G 智慧應用新篇章</p>
-  </div>
-
-  <div class="mb-5">
-    <h5>專題演講 II</h5>
-    <p><strong>講者：</strong>陳志成 教授（國立台灣大學資訊工程學系）</p>
-    <p><strong>主題：</strong>行動運算與分散式學習的交會</p>
-  </div>
-
-  <div class="mb-5">
-    <h5>專題演講 III</h5>
-    <p><strong>講者：</strong>江誠敏 教授（國立陽明交通大學資訊工程學系）</p>
-    <p><strong>主題：</strong>物聯網下可信任與安全智慧生活之研究</p>
-  </div>
-</main>
-
-<footer class="text-center py-4 bg-light mt-5">
-  <div class="container">
-    <p class="mb-0">&copy; 2025 MC & WASN. All rights reserved.</p>
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
 </body>
 </html>
