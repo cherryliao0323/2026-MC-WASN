@@ -97,3 +97,28 @@ body {
 .list {
   padding-left: 20px;
 }
+
+
+.footer {
+  background-color: #5c2c06;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.sidebar {
+  background-color: #5c2c06;
+}
+
+.sidebar .nav-list li a,
+.sidebar .nav-list .submenu li a {
+  color: #fff;
+}
+
+.sidebar .nav-list li a:hover,
+.sidebar .nav-list li.active > a {
+  background-color: #a05729;
+  color: #fff;
+}
