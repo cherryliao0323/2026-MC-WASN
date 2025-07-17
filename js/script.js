@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll("a.nav-link[href^='#']");
   for (const link of links) {
