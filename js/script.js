@@ -1,19 +1,24 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const dropdowns = document.querySelectorAll(".sidebar .dropdown-toggle");
+// 展開子選單功能
+const submenuTriggers = document.querySelectorAll('.sidebar .menu > li > a');
 
-  dropdowns.forEach(toggle => {
-    toggle.addEventListener("click", function (e) {
+submenuTriggers.forEach(trigger => {
+  trigger.addEventListener('click', function (e) {
+    const parentLi = this.parentElement;
+    const submenu = parentLi.querySelector('ul.submenu');
+
+    if (submenu) {
       e.preventDefault();
-      const parentLi = this.parentElement;
-      parentLi.classList.toggle("open");
-    });
-  });
+      const isOpen = parentLi.classList.contains('open');
 
-  // Optional: highlight active link
-  const links = document.querySelectorAll(".sidebar a");
-  links.forEach(link => {
-    if (link.href === window.location.href) {
-      link.classList.add("active");
+      // 關閉其他展開項目
+      document.querySelectorAll('.sidebar .menu > li').forEach(li => {
+        li.classList.remove('open');
+      });
+
+      // 切換展開狀態
+      if (!isOpen) {
+        parentLi.classList.add('open');
+      }
     }
   });
 });
